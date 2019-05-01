@@ -1,0 +1,16 @@
+.paper_image{
+    padding: 50px;
+    width: auto;
+    text-align: center;
+};
+
+.paper_abstract{
+    width: auto;
+    text-align: center;
+    padding: 50px;
+};
+
+.paper_box{
+    height: 150px;
+}
+
