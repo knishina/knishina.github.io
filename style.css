@@ -1,16 +1,30 @@
 .paper_image{
-    padding: 50px;
+    padding: 20px;
     width: auto;
     text-align: center;
-};
+}
 
 .paper_abstract{
     width: auto;
-    text-align: center;
-    padding: 50px;
-};
-
-.paper_box{
-    height: 150px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: -60px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
+.paper_box{
+    height: 125px;
+}
+
+.project_image{
+    object-fit: contain;
+    text-align: center;
+}
+
+.project_text{
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
