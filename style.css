@@ -28,3 +28,27 @@
     padding-top: 10px;
     text-align: center;
 }
+
+#personal_image{
+    object-fit: contain;
+    padding: 25px;
+    text-align: center;
+    border-style: double;
+    border-color: lightgrey;
+    border-width: 1px;
+}
+
+#personal_text{
+    padding-right: 100px;
+    padding-left: 125px;
+}
+
+.personal_image_text{
+    padding-left: 50px;
+
+}
+
+.personal_details{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
