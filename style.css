@@ -1,6 +1,14 @@
 .paper_image{
-    padding: 20px;
-    width: auto;
+    object-fit: contain;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom:100px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 220px;
     text-align: center;
 }
 
@@ -26,6 +34,7 @@
 .project_text{
     margin-top: 10px;
     padding-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -39,14 +48,29 @@
 }
 
 #personal_text{
-    padding-right: 80px;
+    margin-left: 80px;
     padding-left: 50px;
+    padding-right: 30px;
 }
 
 .personal_image_text{
     padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
 }
 
 .personal_details{
     padding-bottom: 25px;
+    width: auto;
 }
+
+.index_box2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: auto;
+	border-width: 50px;
+	border-bottom-width: 100px;
+	border-style: solid;
+	border-color: #7FB3D5;
