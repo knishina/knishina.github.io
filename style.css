@@ -77,21 +77,3 @@
 	border-style: solid;
     border-color: #7FB3D5;
 }
-
-.pic{
-    width: auto;
-    height: auto;
-}
-.text{
-	opacity:0;
-}
-
-.pic:hover .text
-{
-    opacity:0.6;
-	text-align:justify;
-	color:#000000;
-    padding:30px;
-}
-
-
