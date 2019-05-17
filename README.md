@@ -3,6 +3,7 @@
 
 This is my portfolio!
 It contains:
+- my professional background
 - publications
 - completed projects
 - projects in queue
