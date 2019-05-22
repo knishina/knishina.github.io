@@ -11,34 +11,37 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default" style="background-color: white">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
-                <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
-                <li><img src="Images/icon.jpeg" width="90"></li>
-                <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
-                <li><a href="index.html"><strong>Home</strong></a></li>
-                <li><a href="personal.html"><strong>About</strong></a></li>
-                <li><a href="projects.html"><strong>Projects</strong></a></li>
-                <li><a href="papers.html"><strong>Publications</strong></a></li>
-                <li><a href="peruse.html"><strong>Ongoing</strong></a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="navbar-brand" src="Images/icon.jpeg" width="90">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">    
+                <li class="nav-item"><a class="nav-link" href="index.html"><strong>Home</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="personal.html"><strong>About</strong></a></li>
+                <li class="nav-item"><a  class="nav-link" href="projects.html"><strong>Projects</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="papers.html"><strong>Publications</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="peruse.html"><strong>Ongoing</strong></a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a data-toggle="tooltip" data-placement="top" title="GitHub" href="https://github.com/knishina/" target="_blank"><img src="Images/github.png" alt="github" width="28"></a></li>
-                <li><a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://linkedin.com/in/knishina/" target="_blank"><img src="Images/linkedin.png" alt="linkedin" width="25"></a></li>
-                <li><a data-toggle="tooltip" data-placement="top" title="Gmail"  href="mailto:koren.a.nishina@gmail.com"><img src="Images/gmail.jpeg" alt="gmail" width="28"></a></li>
-                <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-placement="top" title="GitHub" href="https://github.com/knishina/" target="_blank"><img src="Images/github.png" alt="github" width="28"></a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://linkedin.com/in/knishina/" target="_blank"><img src="Images/linkedin.png" alt="linkedin" width="25"></a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-placement="top" title="Gmail"  href="mailto:koren.a.nishina@gmail.com"><img src="Images/gmail.jpeg" alt="gmail" width="28"></a></li>
             </ul>
         </div>
     </nav>
     <br />
 
-    <div class="card-deck col-md-12 col-sm-12" style="margin-left: 25px;">
-        <h2 style="margin-bottom: 30px; margin-left: 10px;"><strong>Projects</strong></h2>
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px; margin-left: -25px; margin-top: 5px;">
-            <img class="card-body" src="Images/bacterial_analysis.png" width="350" alt="Bacterial Analysis"></a>
+    <div class="container col-md-12 col-sm-12 col-xs-12">
+        <h2 class="paper_image" style="margin-left:-20px;"><strong>Projects</strong></h2>
+    </div>
+
+    <div class="card-deck col-md-12 col-sm-12">
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top project_image" src="Images/bacterial_analysis.png" alt="Bacterial Analysis"></a>
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://knishina-otu-bacteria.herokuapp.com" target="_blank">Bacterial Analysis</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/bacterial-analysis" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
@@ -50,10 +53,10 @@
                 </h3>
             </div>
         </div>
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px;">
-            <img class="card-body top40" src="Images/final.png" alt="2018 World Series" width="400" height="200">
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top project_image" src="Images/final.png" alt="2018 World Series" width="400" height="200" style="margin-top: 55px; margin-bottom: 60px;">
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://knishina.github.io/World_Series_Prediction/" target="_blank">2018 World Series Prediction</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/World_Series_Prediction" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
@@ -65,10 +68,10 @@
                 </h3>
             </div>
         </div>
-        <div class="card text-center col-md-4 col-sm-4" style="margin-top: 45px; margin-bottom: 40px;">
-            <img class="card-body" src="Images/CSharp.jpg" alt="C# Foundations" width="350">
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top project_image" src="Images/CSharp.jpg" alt="C# Foundations" width="350" style="margin-top: 43px; margin-bottom: 10px">
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://github.com/knishina/CSharp_Foundations" target="_blank">C# Foundations</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/CSharp_Foundations" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
@@ -86,11 +89,11 @@
         <hr>
     </div>
 
-    <div class="card-deck col-md-12 col-sm-12" style="margin-left: 25px;">
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px; margin-left: -25px;">
-            <img class="card-body" src="Images/RealEstate.png" width="350" alt="Real Estate Analysis"></a>
+    <div class="card-deck col-md-12 col-sm-12">
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top" src="Images/RealEstate.png" width="350" alt="Real Estate Analysis" style="margin-top: 40px; margin-bottom:30px;"></a>
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://knishina.github.io/clean_real_estate/" target="_blank">SC Real Estate Analysis</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/real_Estate" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
@@ -102,25 +105,25 @@
                 </h3>
             </div>
         </div>
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px;">
-            <img class="card-body" src="Images/heatmap.png" alt="Heart Attack" width="350" height="250">
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top" src="Images/heatmap.png" alt="Heart Attack" width="350" height="250" style="margin-top: 85px; margin-bottom: 65px;">
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://medium.com/@knishina/heart-disease-predicting-the-kill-22cfb5f0833e" target="_blank">Predicting Heart Disease</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/heart_attack" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
                     <br />
                     <br />
                     <p class="project_text">
-                        Generated a predictive model for heart disease using labeled data.  The data were analyzed, visualized, and modeled using Python libraries pandas, Seaborn, and scikit-learn.
+                        Generated a predictive model for heart disease using labeled data.  The data were analyzed, visualized, and modeled using Python libraries pandas, Seaborn, and scikit-learn.  The findings were summarized in a Medium blog.
                     </p>
                 </h3>
             </div>
         </div>
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px;">
-            <img class="card-body" src="Images/image_classifier.png" alt="C# Foundations" width="300" height="250">
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top" src="Images/image_classifier.png" alt="C# Foundations" width="300" height="400">
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://github.com/knishina/image_classifier" target="_blank">Image Classifier</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/image_classifier" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
@@ -138,11 +141,11 @@
         <hr>
     </div>
 
-    <div class="card-deck col-md-12 col-sm-12" style="margin-left: 25px;">
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px; margin-left: -25px; margin-top: 25px;">
-            <img class="card-body" src="Images/academic_trends.png" width="380" alt="Academic Trends"></a>
+    <div class="card-deck col-md-12 col-sm-12">
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top" src="Images/academic_trends.png" width="380" alt="Academic Trends"></a>
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://knishina.github.io/academic_trends/" target="_blank">Academic Trends</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/academic_trends" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
@@ -154,10 +157,10 @@
                 </h3>
             </div>
         </div>
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px;">
-            <img class="card-body" src="Images/latitude_analysis.png" alt="Latitude Analysis" width="350" height="250">
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top" src="Images/latitude_analysis.png" alt="Latitude Analysis" width="350" height="250" style="margin-top: 15px; margin-bottom: 15px;">
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://knishina.github.io/Latitude_Analysis/" target="_blank">Latitude Analysis</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/Latitude_Analysis" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
@@ -169,10 +172,10 @@
                 </h3>
             </div>
         </div>
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px; margin-top:70px;">
-            <img class="card-body" src="Images/finding_donors.png" alt="Finding Donors" width="350">
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top" src="Images/finding_donors.png" alt="Finding Donors" width="350" style="margin-top: 20px; margin-bottom: 20px;">
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://github.com/knishina/finding_donors" target="_blank">Finding Donors</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/finding_donors" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
@@ -190,13 +193,12 @@
         <hr>
     </div>
 
-    <div class="card-deck col-md-12 col-sm-12" style="margin-left: 25px;">
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px; margin-left: -25px;">
-        </div>
-        <div class="card text-center col-md-4 col-sm-4" style="margin-bottom: 40px; margin-left: -25px;">
-            <img class="card-body" src="Images/dataviz.jpg" width="350" alt="UCB MiniProjects"></a>
+    <div class="card-deck col-md-12 col-sm-12">
+        <div class="text-center col-md-4 col-sm-4"> </div>
+        <div class="card text-center col-md-4 col-sm-4">
+            <img class="card-img-top" src="Images/dataviz.jpg" height="250" width="200" alt="UCB MiniProjects"></a>
             <div class="card-body">
-                <h3 class="card-text top40">
+                <h3 class="card-text">
                     <a href="https://github.com/knishina/uc_berkeley_bootcamp" target="_blank">UCB MiniProjects</a>
                     <br />
                     <a data-toggle="tooltip" data-placement="top" title="GitHub"  href="https://github.com/knishina/uc_berkeley_bootcamp" target="_blank"><img src="Images/github.png" alt="github" width="35" style="margin-top: 10px;"></a>
@@ -207,6 +209,7 @@
                     </p>
                 </h3>
             </div>
+            <div class="text-center col-md-4 col-sm-4"> </div>
         </div>
     </div>
     
