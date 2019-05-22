@@ -11,23 +11,23 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default" style="background-color: white">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
-                <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
-                <li><img src="Images/icon.jpeg" width="90"></li>
-                <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
-                <li><a href="index.html"><strong>Home</strong></a></li>
-                <li><a href="personal.html"><strong>About</strong></a></li>
-                <li><a href="projects.html"><strong>Projects</strong></a></li>
-                <li><a href="papers.html"><strong>Publications</strong></a></li>
-                <li><a href="peruse.html"><strong>Ongoing</strong></a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="navbar-brand" src="Images/icon.jpeg" width="90">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">    
+                <li class="nav-item"><a class="nav-link" href="index.html"><strong>Home</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="personal.html"><strong>About</strong></a></li>
+                <li class="nav-item"><a  class="nav-link" href="projects.html"><strong>Projects</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="papers.html"><strong>Publications</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="peruse.html"><strong>Ongoing</strong></a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a data-toggle="tooltip" data-placement="top" title="GitHub" href="https://github.com/knishina/" target="_blank"><img src="Images/github.png" alt="github" width="28"></a></li>
-                <li><a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://linkedin.com/in/knishina/" target="_blank"><img src="Images/linkedin.png" alt="linkedin" width="25"></a></li>
-                <li><a data-toggle="tooltip" data-placement="top" title="Gmail"  href="mailto:koren.a.nishina@gmail.com"><img src="Images/gmail.jpeg" alt="gmail" width="28"></a></li>
-                <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-placement="top" title="GitHub" href="https://github.com/knishina/" target="_blank"><img src="Images/github.png" alt="github" width="28"></a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://linkedin.com/in/knishina/" target="_blank"><img src="Images/linkedin.png" alt="linkedin" width="25"></a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-placement="top" title="Gmail"  href="mailto:koren.a.nishina@gmail.com"><img src="Images/gmail.jpeg" alt="gmail" width="28"></a></li>
             </ul>
         </div>
     </nav>
@@ -50,8 +50,8 @@
             <br />
         </div>
         <div class="container col-md-7 col-sm-7" id="personal_text">
-            <div class="row col-md-12 col-sm-7">
-                <h3><strong> &nbsp; Education</strong></h3>
+            <h3><strong> &nbsp; Education</strong></h3>
+            <div class="row col-md-12 col-sm-12">
                 <div class="personal_details col-md-5 col-sm-5">
                     <p>
                         Udacity<br />
@@ -61,7 +61,7 @@
                         M.I.T.<br />
                     </p>
                 </div>
-                <div class="personal_details col-md-7 col-sm-7">
+                <div class="personal_details col-md-6 col-sm-6">
                     <p>
                             Nanodegree—Data Science (in progress)<br />
                             Certificate in Data Analytics and Visualization<br />
@@ -72,11 +72,11 @@
                     </p>
                 </div>
             </div>
-                <br />
+            <hr style="border-style: solid; border-width: 1px; border-color: lightgrey">
+            <h3><strong>Professional Experience</strong></h3>
             <br />
-            <div class="row personal_details col-md-12 col-sm-12">
-                <hr style="border-style: solid; border-width: 1px; border-color: lightgrey">
-                <h3><strong>Professional Experience</strong></h3>    
+            <div class="row col-md-11 col-sm-11">
+                <div class="personal_details" align="justify">
                 <p>
                     <strong>University of California, Berkeley Extension—Belmont, CA</strong><br />
                     <strong>Aug 2018-Present</strong><br />
@@ -90,8 +90,6 @@
                     </ul>
                 </p>
                 <br />
-                <br />
-
                 <p>
                     <strong>Promega—Sunnyvale, CA</strong><br />
                     <strong>Dec 2016-Oct 2017</strong><br />
@@ -107,8 +105,6 @@
                     </ul>
                 </p>
                 <br />
-                <br />
-
                 <p>
                     <strong>LakePharma—Belmont, CA</strong><br />
                     <strong>Aug 2015- Dec 2016</strong><br />
@@ -124,8 +120,6 @@
                     </ul>
                 </p>
                 <br />
-                <br />
-                
                 <p>
                     <strong>Galxyz—Mountain View, CA</strong><br />
                     <strong>2014-2015</strong><br />
@@ -135,8 +129,6 @@
                     <i>Created and managed implementation of integrated science curriculum in accordance with the Next Generation Science Standards (NGSS) and the Common Core.  The curricula took complex scientific ideas and converted them to fun, interactive lessons, assessments, and experiments for multiple age levels.</i><br />
                 </p>
                 <br />
-                <br />
-
                 <p>
                     <strong>DeVry University—Fremont, CA</strong><br />
                     <strong>2012-2014</strong><br />
@@ -146,8 +138,6 @@
                     <i>Developed coursework and instructed students in accelerated undergraduate courses that included Nutrition, Anatomy/Physiology, Biology, and Chemistry.</i><br />
                 </p>
                 <br />
-                <br />
-
                 <p>
                     <strong>Sylvan Learning Center—Burlingame, CA</strong><br />
                     <strong>2008-2014</strong><br />
@@ -159,6 +149,7 @@
             </div>
         </div>
     </div>
+
     <div class="row col-md-12 col-sm-12 paper_box"></div>
 
 
