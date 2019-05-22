@@ -29,7 +29,7 @@
 }
 
 .project_image{
-    object-fit: contain; 
+    object-fit: scale-down; 
     text-align: center;
 }
 
