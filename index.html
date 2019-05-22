@@ -11,23 +11,23 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default" style="background-color: white">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
-                <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
-                <li><img src="Images/icon.jpeg" width="90"></li>
-                <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
-                <li><a href="index.html"><strong>Home</strong></a></li>
-                <li><a href="personal.html"><strong>About</strong></a></li>
-                <li><a href="projects.html"><strong>Projects</strong></a></li>
-                <li><a href="papers.html"><strong>Publications</strong></a></li>
-                <li><a href="peruse.html"><strong>Ongoing</strong></a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="navbar-brand" src="Images/icon.jpeg" width="90">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">    
+                <li class="nav-item"><a class="nav-link" href="index.html"><strong>Home</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="personal.html"><strong>About</strong></a></li>
+                <li class="nav-item"><a  class="nav-link" href="projects.html"><strong>Projects</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="papers.html"><strong>Publications</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="peruse.html"><strong>Ongoing</strong></a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a data-toggle="tooltip" data-placement="top" title="GitHub" href="https://github.com/knishina/" target="_blank"><img src="Images/github.png" alt="github" width="28"></a></li>
-                <li><a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://linkedin.com/in/knishina/" target="_blank"><img src="Images/linkedin.png" alt="linkedin" width="25"></a></li>
-                <li><a data-toggle="tooltip" data-placement="top" title="Gmail"  href="mailto:koren.a.nishina@gmail.com"><img src="Images/gmail.jpeg" alt="gmail" width="28"></a></li>
-                <li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-placement="top" title="GitHub" href="https://github.com/knishina/" target="_blank"><img src="Images/github.png" alt="github" width="28"></a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://linkedin.com/in/knishina/" target="_blank"><img src="Images/linkedin.png" alt="linkedin" width="25"></a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tooltip" data-placement="top" title="Gmail"  href="mailto:koren.a.nishina@gmail.com"><img src="Images/gmail.jpeg" alt="gmail" width="28"></a></li>
             </ul>
         </div>
     </nav>
@@ -46,29 +46,32 @@
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active" style="margin-right: 100px; margin-left: 100px">
+                <div class="carousel-item active">
                     <a href="personal.html"><img class="index_box2" src="Images/personal_car.png" alt="About" style="object-fit:contain; height: 420px"></a>
                 </div>
-                <div class="item" style="margin-right: 100px; margin-left: 100px; padding-left: 20px">
-                    <a href="projects.html"><img class="image_box2" src="Images/projects_car.png" alt="Projects" style="object-fit: contain; height: 400px; margin-top: 20px"></a>
+                <div class="carousel-item">
+                    <a href="projects.html"><img class="index_box2" src="Images/projects_car.png" alt="Projects" style="object-fit: contain; height: 400px; margin-top: 20px"></a>
                 </div>
-                <div class="item"style="margin-right: 100px; margin-left: 100px" >
-                    <a href="papers.html"><img class="image_box2" src="Images/publication_car.png" alt="Publications" style="object-fit: contain; height: 400px; margin-top: 20px"></a>
+                <div class="carousel-item">
+                    <a href="papers.html"><img class="index_box2" src="Images/publication_car.png" alt="Publications" style="object-fit: contain; height: 400px; margin-top: 20px"></a>
                 </div>
             </div>
 
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
             </a>
         </div>
         <p style="text-align: center;"><i>Click on the slide to explore.</i></p>
     </div>
-
+    <div class="row col-md-12 col-sm-12 paper_box">
+            <br />
+            <br />
+            <br />
+        </div>
+    
 
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
