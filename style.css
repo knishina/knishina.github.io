@@ -28,17 +28,6 @@
     height: 80px;
 }
 
-.project_image{
-    object-fit: contain;
-    text-align: center;
-}
-
-.project_text{
-    margin-top: 10px;
-    padding-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 #personal_image{
     object-fit: contain;
@@ -76,4 +65,8 @@
 	border-bottom-width: 100px;
 	border-style: solid;
     border-color: #7FB3D5;
+}
+
+.top40{
+    margin-top: 40px;
 }
