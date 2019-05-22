@@ -28,6 +28,17 @@
     height: 80px;
 }
 
+.project_image{
+    object-fit: contain;
+    text-align: center;
+}
+
+.project_text{
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 #personal_image{
     object-fit: contain;
